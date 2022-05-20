@@ -1,0 +1,30 @@
+import turtle
+# 图案
+turtle.pu()
+turtle.goto(0,-100)
+turtle.pd()
+turtle.speed(0)
+turtle.delay(10)
+turtle.color('red','pink')
+turtle.begin_fill()
+turtle.width(5)
+turtle.left(135)
+turtle.fd(200)
+turtle.right(180)
+turtle.circle(100,-180)
+turtle.left(90)
+turtle.circle(100,-180)
+turtle.right(180)
+turtle.fd(200)
+turtle.pu()
+turtle.goto(50,-30)
+# 文字
+turtle.color('red')
+turtle.pu()
+turtle.goto(0,100)
+turtle.pd()
+turtle.write('I LOVE YOU · 520',
+move=False, align='center',
+font=("Times", 28, "bold"))
+turtle.hideturtle()
+turtle.done()
